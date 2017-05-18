@@ -274,7 +274,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#网络"><span class="post-toc-number">1.</span> <span class="post-toc-text">网络</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-1测线仪"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">1.1测线仪</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-1-1测线仪测试入户网口2-8通，1不通"><span class="post-toc-number">1.0.1.1.</span> <span class="post-toc-text">1.1.1测线仪测试入户网口2-8通，1不通</span></a></li></ol></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#网络"><span class="post-toc-number">1.</span> <span class="post-toc-text">网络</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-1：测线仪"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">1.1：测线仪</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-1-1：测线仪测试入户网口2-8通，1不通"><span class="post-toc-number">1.0.1.1.</span> <span class="post-toc-text">1.1.1：测线仪测试入户网口2-8通，1不通</span></a></li></ol></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#装机"><span class="post-toc-number">2.</span> <span class="post-toc-text">装机</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-1：进PE"><span class="post-toc-number">2.0.1.</span> <span class="post-toc-text">1.1：进PE</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-1-1：索尼笔记本"><span class="post-toc-number">2.0.1.1.</span> <span class="post-toc-text">1.1.1：索尼笔记本</span></a></li></ol></li></ol></li></ol></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -441,10 +441,15 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><h3 id="1-1测线仪"><a href="#1-1测线仪" class="headerlink" title="1.1测线仪"></a>1.1测线仪</h3><h4 id="1-1-1测线仪测试入户网口2-8通，1不通"><a href="#1-1-1测线仪测试入户网口2-8通，1不通" class="headerlink" title="1.1.1测线仪测试入户网口2-8通，1不通"></a>1.1.1测线仪测试入户网口2-8通，1不通</h4><p>测试线路：入户线</p>
+        <h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><h3 id="1-1：测线仪"><a href="#1-1：测线仪" class="headerlink" title="1.1：测线仪"></a>1.1：测线仪</h3><h4 id="1-1-1：测线仪测试入户网口2-8通，1不通"><a href="#1-1-1：测线仪测试入户网口2-8通，1不通" class="headerlink" title="1.1.1：测线仪测试入户网口2-8通，1不通"></a>1.1.1：测线仪测试入户网口2-8通，1不通</h4><p>测试线路：入户线</p>
 <p>判断原因：入户线接口的网线没有接紧</p>
 <p>解决方法：按照水晶头的解法：橙白、橙、绿白、蓝、蓝白、绿、棕白、棕<strong>（1-8）</strong>，可知橙白色混合线没有接紧，用压线工具压紧，再测，测试成功。</p>
 <p>修改时间：2017-5-18/23:56</p>
+<h1 id="装机"><a href="#装机" class="headerlink" title="装机"></a>装机</h1><h3 id="1-1：进PE"><a href="#1-1：进PE" class="headerlink" title="1.1：进PE"></a>1.1：进PE</h3><h4 id="1-1-1：索尼笔记本"><a href="#1-1-1：索尼笔记本" class="headerlink" title="1.1.1：索尼笔记本"></a>1.1.1：索尼笔记本</h4><p>关闭笔记本&gt;&gt;按ASSIST键进入vaio care设置页&gt;&gt;按F2（或者点击Start BIOS setup）&gt;&gt;进入Boot&gt;&gt;把External Device Boot后的Disabled改为Enabled&gt;&gt;把Boot Priority下的External Device设为首选启动项&gt;&gt;重启即可</p>
+<p>如果不成功：</p>
+<p>如果你用USB启动PE 一般来说也是找不到硬盘、做不了维护，因为这几款笔记本都是ICH9芯片 BIOS受限，SONY的笔记本不能将SATA改为IDE兼容模式。</p>
+<p>如果用移动硬盘直接引导XP操作系统，有蓝屏的可能。</p>
+<p>修改时间：2017-5-19/0:17</p>
 
     
 
