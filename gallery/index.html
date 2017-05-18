@@ -405,6 +405,12 @@
               event: 'scrollstop'
             });
         })
+        <!-- Start Queue -->
+        $(document).ready(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        });
     </script>
 </body>
 
