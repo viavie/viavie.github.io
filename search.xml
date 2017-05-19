@@ -201,6 +201,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[标签云]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[links]]></title>
       <url>/links/index.html</url>
       <content type="html"></content>
@@ -209,12 +215,6 @@
     <entry>
       <title><![CDATA[缱绻の画]]></title>
       <url>/gallery/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[标签云]]></title>
-      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
