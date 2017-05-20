@@ -336,8 +336,8 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
     </entry>
     
     <entry>
-      <title><![CDATA[安装Typecho完成后遇到Access denied.]]></title>
-      <url>/2017/05/17/%E5%AE%89%E8%A3%85typecho%E5%AE%8C%E6%88%90%E5%90%8E%E9%81%87%E5%88%B0Access-denied./</url>
+      <title><![CDATA[安装Typecho完成后遇到Access denied]]></title>
+      <url>/2017/05/17/%E5%AE%89%E8%A3%85typecho%E5%AE%8C%E6%88%90%E5%90%8E%E9%81%87%E5%88%B0Access-denied/</url>
       <content type="html"><![CDATA[<blockquote>
 <ol>
 <li>在/usr/local/php/etc下找到php.ini文件，修改cgi.fix_pathinfo = 0为cgi.fix_pathinfo = 1</li>
