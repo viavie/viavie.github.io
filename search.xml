@@ -52,7 +52,7 @@
       <content type="html"><![CDATA[<p><em>小提示：搭建hexo博客是一个需要耐心的工程，可能哪步出错了就卡了很长时间找不到原因，这个时候利用百度和git的报错推断原因往往是有效的</em></p>
 <p><em>这个是Windows平台的搭建教程，运行的Win10 64位系统</em></p>
 <p><em>本文如果有任何不对的地方欢迎各位进行批评指正，感激不尽！</em></p>
-<h2 id="1-注册Github"><a href="#1-注册Github" class="headerlink" title="1.注册Github"></a>1.注册Github</h2><h3 id="1-1注册并完善信息"><a href="#1-1注册并完善信息" class="headerlink" title="1.1注册并完善信息"></a>1.1注册并完善信息</h3><p><a href="https://github.com" target="_blank" rel="external">注册地址</a>  <em>注册的时候建议使用便于记忆的、简便的用户名（不要使用大写字母，建议使用小写字母和数字）</em></p>
+<h2 id="注册Github"><a href="#注册Github" class="headerlink" title="注册Github"></a>注册Github</h2><h3 id="注册并完善信息"><a href="#注册并完善信息" class="headerlink" title="注册并完善信息"></a>注册并完善信息</h3><p><a href="https://github.com" target="_blank" rel="external">注册地址</a>  <em>注册的时候建议使用便于记忆的、简便的用户名（不要使用大写字母，建议使用小写字母和数字）</em></p>
 <p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/githubsignup.png" alt="github注册"></p>
 <p>注册的时候可能遇到的一中情况就是用户名已经注册过了，这个时候更换用户名即可</p>
 <p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/signuptaken.png" alt="sign up already taken"></p>
@@ -250,11 +250,11 @@
         
         <tags>
             
+            <tag> typecho </tag>
+            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
-            
-            <tag> typecho </tag>
             
         </tags>
         
