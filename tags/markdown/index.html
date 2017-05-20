@@ -10,7 +10,7 @@
     
     <title>
         
-            使用github+hexo搭建博客 | 
+            标签: markdown | 
         
         Viavie&#39;s Blog
     </title>
@@ -40,7 +40,7 @@
     <meta name="theme-color" content="#1bbcfd">
     <meta name="author" content="Viavie">
     <meta name="description" content="null">
-    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明,hexo,github,博客">
+    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
@@ -66,9 +66,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://viavie.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="使用github+hexo搭建博客 | Viavie&#39;s Blog">
+    <meta property="og:title" content="标签: markdown | Viavie&#39;s Blog">
     <meta property="og:description" content="null">
-    <meta property="og:article:tag" content="hexo"> <meta property="og:article:tag" content="github"> <meta property="og:article:tag" content="博客"> 
+    
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -248,276 +248,103 @@
                         </button>
                     
 
-                    <!-- Post TOC -->
-
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
     
-    <!-- Back Button -->
-    <!--
-    <div class="material-back" id="backhome-div" tabindex="0">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
-           href="#" onclick="window.history.back();return false;"
-           target="_self"
-           role="button"
-           data-upgraded=",MaterialButton,MaterialRipple">
-            <i class="material-icons" role="presentation">arrow_back</i>
-            <span class="mdl-button__ripple-container">
-                <span class="mdl-ripple"></span>
-            </span>
-        </a>
-    </div>
-    -->
+    <div class="locate-thumbnail-symbol"></div>
 
-    <!-- Left aligned menu below button -->
-    <button id="post-toc-trigger-btn"
-        class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">format_list_numbered</i>
-    </button>
+    <!-- Pin on top -->
+    
 
-    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+    <!-- Normal Post -->
+    
         
-
-        <!--
-        <li class="mdl-menu__item">
-            Some Action
-        </li>
-        -->
-    </ul>
-
-
-
-
-<!-- Layouts -->
-
-    <!-- Post Module -->
-    <div class="material-post_container">
-
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script>
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+        
+    
 
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/05/20/markdown使用经验/">markdown使用经验</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            1.markdown代码块中如何让# * $原样显示而不被解析成对应的markdown语法
+解决方法...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/05/20/markdown使用经验/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="Viavie's avatar">
+            </div>
+            <div>
+                <strong>Viavie</strong>
+                <span>5月 20, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/issue/">问题</a>
+            </span>
+
+            
+
+            
+                <!-- Comment Number -->
+                &nbsp;|&nbsp;
+                <span class="post_entry-comment" >
+                        <span id = "sourceId::2017/05/20/markdown使用经验/" class = "cy_cmt_count" ></span>条评论
+                </span>
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
+    
+
+    
+        <script>
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
+    }
 </script>
 
-        
-    
-            <p class="article-headline-p">
-                使用github+hexo搭建博客
-            </p>
-        </div>
-
-
-
-
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>Viavie</strong>
-        <span>5月 19, 2017</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
-
-    <!-- Qrcode -->
-    
-        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">devices other</i>
-            <span class="visuallyhidden">devices other</span>
-        </button>
-        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
-            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC3UlEQVR42u3aQW4DIRAEQP//08k1F6+7h41sQ3GKNhtMYSloenj8HDke2NjY2NjY2NjY2B/JfsTj7/tPpy7Hszmvn7TzY2NjY5/AfvGvP17EsyfJNiWkpTVjY2NjH8BOPqY4MC5nyD999lfY2NjY2MmBkRcV65u7vmZsbGxs7KSAaeOn2QzY2NjY2Cuh0qwkmD1vt+wfszRsbGzsj2fPmrLv/flt/W1sbGzsD2Ovj5VA//oLaNvGL9aJjY2NvSl7pQ0wC5vaN4tiYyVLw8bGxt6I3Ub81wXAXQfY7B1sbGzsc9jttZjkSk17BScvP25r9GJjY2NvwU6OkLxUyH+b49cPWmxsbOxz2PkWJIXEepM4R0ZPsLGxsbdm39VMbQuJWYv3hlAJGxsbezt2Hh6thPX3XuWsDzlsbGzsTdlt6N9GPC2gLT/ygAkbGxt7V/bsOk7+PN/WNpxqGxjY2NjYZ7JnwVO+EdFyR2HTUlcEGxsb+6vYbdyTX8GZtYRXrl0uhUrY2NjYX8vOy48kDJpd35nFTPWxio2Njb01u20M5BHPypWdfA3DUAkbGxt7I3Y+3V2LnrUi2kMUGxsb+zT2rKhYL1TyeCv/wrCxsbHPYc/Cmlnov765Kxd6sLGxsXdlz8qDpMxo28btMZbMg42NjX0au43gZ8VDHhvlh2uyKdjY2Ni7sttSoY37r9u0bbS01ITAxsbG3pQ9a8rOCoy2/GhLphcubGxs7E3Zj3i0R1deoszmzDcLGxsbe292O9qgZxYezbasztKwsbGxt2Dfe4Dlh1B74N2wBmxsbOyt2XnM1G5W2769bie0cRU2Njb2aeyVi495Wzd/J9/iqDjBxsbGxg7+KmnitstNwqw3HGDY2NjYX8tuL9Yk0X9e/OQXfYpQCRsbG3sjdr6IvHG70nKYFUX/mKVhY2NjfzB7tsSV7burbVAceNjY2Nibss8Z2NjY2NjY2NjY2B8zfgFYI0lL0rDJYAAAAABJRU5ErkJggg==">
-        </ul>
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/github/">github</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/hexo/">hexo</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/博客/">博客</a>
-    </ul>
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-        
-            <!-- Busuanzi Views -->
-            <a class="post_share-link" href="#">
-                <li class="mdl-menu__item">
-                    <span id="busuanzi_container_page_pv">
-                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
-                    </span>
-                </li>
-            </a>
-        
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=使用github+hexo搭建博客&url=https://viavie.github.io//2017/05/19/使用github+hexo搭建博客/index.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=使用github+hexo搭建博客&url=https://viavie.github.io//2017/05/19/使用github+hexo搭建博客/index.html&via=Viavie" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://viavie.github.io//2017/05/19/使用github+hexo搭建博客/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=https://viavie.github.io//2017/05/19/使用github+hexo搭建博客/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <p><em>小提示：搭建hexo博客是一个需要耐心的工程，可能哪步出错了就卡了很长时间找不到原因，这个时候利用百度和git的报错推断原因往往是有效的</em></p>
-<p>1.注册github</p>
-<p><a href="https://github.com" target="_blank" rel="external">注册地址</a></p>
-<p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/githubsignup.png" alt="github注册"></p>
-
-    
-
     
 </div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-
-
-    <!-- 使用 changyan -->
-    <div id="changyan-comment">
-        <!--PC和WAP自适应版-->
-<div id="SOHUCS" sid="2017/05/19/使用github+hexo搭建博客/"  ></div>
-<script type="text/javascript">
-(function(){
-var appid = 'cyt15uawb';
-var conf = 'prod_857dc540c179212748de0d1c60d1c8f1';
-var width = window.innerWidth || document.documentElement.clientWidth;
-if (width < 960) {
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-
-    </div>
-    <style>
-        #changyan-comment{
-            background-color: #eee;
-            padding: 2pc;
-        }
-    </style>
-
-
-
-
-
-
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-        <a href="/2017/05/19/Chrome的正确食用方法/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-        <a href="/2017/05/18/网络维护经历合集/" id="post_nav-older" class="next-content">
-            旧篇
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
-    
-</nav>
-
-        </div>
-    </div>
-
 
 
                     
@@ -597,7 +424,7 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">7</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">8</span></a>
             </ul>
         </li>
         
@@ -615,7 +442,7 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/original/">原创<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/whisper/">轻语<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/issue/">问题<span class="sidebar_archives-count">3</span></a>
+                <a class="sidebar_archives-link" href="/categories/original/">原创<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/whisper/">轻语<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/issue/">问题<span class="sidebar_archives-count">4</span></a>
             </ul>
         </li>
         
@@ -673,7 +500,7 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">7</span>
+                <span class="sidebar-badge">8</span>
             </a>
         </li>
         
@@ -728,14 +555,6 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
-
-                    
-                        <!-- Footer Top Button -->
-                        <div class="toTop-wrap">
-    <a href="#top" class="toTop">
-        <i class="material-icons footer_top-i">expand_less</i>
-    </a>
-</div>
 
                     
 
