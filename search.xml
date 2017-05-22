@@ -58,6 +58,7 @@
       <url>/2017/05/19/Chrome%E7%9A%84%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/</url>
       <content type="html"><![CDATA[<h2 id="1设置："><a href="#1设置：" class="headerlink" title="1设置："></a>1设置：</h2><h3 id="1-1：方便调试，禁用Chrome浏览器缓存"><a href="#1-1：方便调试，禁用Chrome浏览器缓存" class="headerlink" title="1.1：方便调试，禁用Chrome浏览器缓存"></a>1.1：方便调试，禁用Chrome浏览器缓存</h3><p>F12打开开发者工具&gt;&gt;Network选项卡&gt;&gt;勾选Disable cache选项&gt;&gt;OK</p>
 <h3 id="1-2：保护个人信息，使用隐身模式访问网页"><a href="#1-2：保护个人信息，使用隐身模式访问网页" class="headerlink" title="1.2：保护个人信息，使用隐身模式访问网页"></a>1.2：保护个人信息，使用隐身模式访问网页</h3><p>Ctrl+Shift+N&gt;&gt;OK</p>
+<h3 id="1-3：常开Flash-player的方法"><a href="#1-3：常开Flash-player的方法" class="headerlink" title="1.3：常开Flash player的方法"></a>1.3：常开Flash player的方法</h3><p>地址栏输入：chrome://settings/content&gt;&gt;Flash&gt;&gt;允许网站运行Flash</p>
 ]]></content>
       
         <categories>
@@ -365,11 +366,11 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
         
         <tags>
             
+            <tag> typecho </tag>
+            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
-            
-            <tag> typecho </tag>
             
         </tags>
         
