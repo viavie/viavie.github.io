@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title><![CDATA[课程]]></title>
+      <url>/2017/05/24/%E8%AF%BE%E7%A8%8B/</url>
+      <content type="html"><![CDATA[<hr>
+<h3 id="大学课程："><a href="#大学课程：" class="headerlink" title="大学课程："></a>大学课程：</h3><hr>
+<h3 id="课外课程："><a href="#课外课程：" class="headerlink" title="课外课程："></a>课外课程：</h3><p><a href="http://space.bilibili.com/1950746/#!/channel/detail?cid=1757&amp;order=&amp;page=2" target="_blank" rel="external">10分钟速成课：哲学</a></p>
+<hr>
+<h3 id="编程课程："><a href="#编程课程：" class="headerlink" title="编程课程："></a>编程课程：</h3><hr>
+]]></content>
+      
+        <categories>
+            
+            <category> 课程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 课程 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
       <url>/2017/05/23/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -400,11 +425,11 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
         
         <tags>
             
+            <tag> typecho </tag>
+            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
-            
-            <tag> typecho </tag>
             
         </tags>
         

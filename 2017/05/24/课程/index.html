@@ -10,7 +10,7 @@
     
     <title>
         
-            标签: materialize | 
+            课程 | 
         
         Viavie&#39;s Blog
     </title>
@@ -40,7 +40,7 @@
     <meta name="theme-color" content="#1bbcfd">
     <meta name="author" content="Viavie">
     <meta name="description" content="质朴通明，自由随心">
-    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明">
+    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明,课程">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
@@ -66,9 +66,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://viavie.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: materialize | Viavie&#39;s Blog">
+    <meta property="og:title" content="课程 | Viavie&#39;s Blog">
     <meta property="og:description" content="质朴通明，自由随心">
-    
+    <meta property="og:article:tag" content="课程"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -248,102 +248,260 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#大学课程："><span class="post-toc-number">1.</span> <span class="post-toc-text">大学课程：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#课外课程："><span class="post-toc-number">2.</span> <span class="post-toc-text">课外课程：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#编程课程："><span class="post-toc-number">3.</span> <span class="post-toc-text">编程课程：</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E5%BE%85%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%A4%87%E5%BF%98%E5%BD%95/xiangmu.jpeg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://hexo-1252290365.cosgz.myqcloud.com/%E6%96%87%E7%AB%A0banner/philosophy.jpg)">
+    
+            <p class="article-headline-p">
+                课程
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Viavie</strong>
+        <span>5月 24, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACZUlEQVR42u3a0U6EQAwF0P3/n9ZXEyN7284MrDk8ESXQgwmtbV9f//p44eHh4eHh4eHhPYz3io+f1/++w++7/fXb6/NJbHh4eHgneW8+tQGv+jquQ+zFhoeHh3eel4RYTQxvQikmkuj14eHh4T2MV00GSbg5FQ8PD+8TeddhTQBJKY+Hh4f3NF7+D38eRLW8vrnXgoeHhxfzegOwM+e3zffw8PDwjixdVUvqfI2guXSFh4eHt4GXt2jzcHtF+ZvPfdCYwMPDwzvJKxSsg5HV9T3nrwAPDw/vDK8a9KSkzoNO0lXUxsXDw8PbwJsElP88P68+Cw8PD+85vGph3RtrVQvrURsXDw8P78iEqFr+7kgb1SEZHh4e3m7edRB5ozYPsdfaWLAZgYeHh7eId/0Jzh+cfPqrr7WXJPDw8PDu5c0fPH9Z5XSCh4eHt5nXSwbJyKq69tpLFeXNCDw8PLwxb+0iaY9aRZZXB/Dw8PCW8pIFgl56WNV6uI4KDw8P7zwvCTFfJ80//dWivFD64+Hh4d3EqzZYr4vv3stqXoOHh4d3Ey9fQs0B1THbsl4LHh4e3mZe3tjtrbFOxmxREsLDw8M7wpsM8qsF8Xz54M2fBw8PD28zr3rkQ69qUT5vK+Ph4eGd4fVWo/JF0rz47t0ZDw8P7y5er+WaD6uS8VjvmmaXGg8PD28Rr7csla8X7F5KwMPDw/ssXr5eMCnZk8YxHh4e3tN4VXB1xFVtAePh4eHdy+sNvSYrVgkmTyF4eHh4J3nVAVhvfFUY/8fjri3zPTw8PLylS1fPP/Dw8PDw8PDw8B5wfAPp9eNfE4kGpQAAAABJRU5ErkJggg==">
+        </ul>
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/17/待建项目备忘录/">待建项目备忘录</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/课程/">课程</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
         
-            1. [谷歌materialize][1]
-2. typecho博客Qplayer插件和pjax
-3. typecho时间轴页面在i...
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
         
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/17/待建项目备忘录/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Viavie's avatar">
-            </div>
-            <div>
-                <strong>Viavie</strong>
-                <span>5月 17, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/issue/">问题</a>
-            </span>
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=课程&url=https://viavie.github.io//2017/05/24/课程/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
-                <!-- Comment Number -->
-                &nbsp;|&nbsp;
-                <span class="post_entry-comment" >
-                        <span id = "sourceId::2017/05/17/待建项目备忘录/" class = "cy_cmt_count" ></span>条评论
-                </span>
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=课程&url=https://viavie.github.io//2017/05/24/课程/index.html&via=Viavie" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://viavie.github.io//2017/05/24/课程/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://viavie.github.io//2017/05/24/课程/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
 
-            
-            
-        
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
+        <hr>
+<h3 id="大学课程："><a href="#大学课程：" class="headerlink" title="大学课程："></a>大学课程：</h3><hr>
+<h3 id="课外课程："><a href="#课外课程：" class="headerlink" title="课外课程："></a>课外课程：</h3><p><a href="http://space.bilibili.com/1950746/#!/channel/detail?cid=1757&amp;order=&amp;page=2" target="_blank" rel="external">10分钟速成课：哲学</a></p>
+<hr>
+<h3 id="编程课程："><a href="#编程课程：" class="headerlink" title="编程课程："></a>编程课程：</h3><hr>
 
     
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
 
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+    <!-- 使用 changyan -->
+    <div id="changyan-comment">
+        <!--PC和WAP自适应版-->
+<div id="SOHUCS" sid="2017/05/24/课程/"  ></div>
+<script type="text/javascript">
+(function(){
+var appid = 'cyt15uawb';
+var conf = 'prod_857dc540c179212748de0d1c60d1c8f1';
+var width = window.innerWidth || document.documentElement.clientWidth;
+if (width < 960) {
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+
+    </div>
+    <style>
+        #changyan-comment{
+            background-color: #eee;
+            padding: 2pc;
+        }
+    </style>
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/05/23/hello-world/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -554,6 +712,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
