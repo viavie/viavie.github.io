@@ -3,9 +3,10 @@
   
     
     <entry>
-      <title><![CDATA[看过的电影]]></title>
-      <url>/2017/05/24/%E7%9C%8B%E8%BF%87%E7%9A%84%E7%94%B5%E5%BD%B1/</url>
+      <title><![CDATA[2017最新电影]]></title>
+      <url>/2017/05/24/2017%E6%9C%80%E6%96%B0%E7%94%B5%E5%BD%B1/</url>
       <content type="html"><![CDATA[<h3 id="金刚狼3：殊死一战"><a href="#金刚狼3：殊死一战" class="headerlink" title="金刚狼3：殊死一战"></a>金刚狼3：殊死一战</h3><p>Torrent:<a href="http://hexo-1252290365.cosgz.myqcloud.com/torrent/%E9%87%91%E5%88%9A%E7%8B%BC3%EF%BC%9A%E6%AE%8A%E6%AD%BB%E4%B8%80%E6%88%98.torrent" target="_blank" rel="external">下载地址</a></p>
+<h3 id="天才少女"><a href="#天才少女" class="headerlink" title="天才少女"></a>天才少女</h3><p>Torrent:<a href="http://hexo-1252290365.cosgz.myqcloud.com/torrent/%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3.torrent" target="_blank" rel="external">下载地址</a></p>
 ]]></content>
       
         <categories>
@@ -446,11 +447,11 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
         
         <tags>
             
-            <tag> typecho </tag>
-            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
+            
+            <tag> typecho </tag>
             
         </tags>
         
