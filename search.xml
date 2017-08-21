@@ -1172,11 +1172,11 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
         
         <tags>
             
-            <tag> typecho </tag>
-            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
+            
+            <tag> typecho </tag>
             
         </tags>
         
