@@ -10,7 +10,7 @@
     
     <title>
         
-            标签: markdown | 
+            系统镜像下载 | 
         
         Viavie&#39;s Blog
     </title>
@@ -38,7 +38,7 @@
     <meta name="theme-color" content="#1bbcfd">
     <meta name="author" content="Viavie">
     <meta name="description" content="质朴通明，自由随心">
-    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明">
+    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明,windows">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
@@ -64,9 +64,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://viavie.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: markdown | Viavie&#39;s Blog">
+    <meta property="og:title" content="系统镜像下载 | Viavie&#39;s Blog">
     <meta property="og:description" content="质朴通明，自由随心">
-    
+    <meta property="og:article:tag" content="windows"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -246,113 +246,237 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
-    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Windows7"><span class="post-toc-number">1.</span> <span class="post-toc-text">Windows7</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/markdown%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/markdown.png">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://hexo-1252290365.cosgz.myqcloud.com/Chrome%E7%9A%84%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E5%BC%8F/Chrome-Logo.png)">
+    
+            <p class="article-headline-p">
+                系统镜像下载
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Viavie</strong>
+        <span>9月 29, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC1klEQVR42u3a0U7DMAwF0P3/T8MrElp7bQfUJadPU+manCBxiZ3X15HXCxsbGxsbGxsbG/uR7Fd8vX3dj59eP//7yevPySj5nLGxsbH3Zt/86Q+mcv3dmwm9uZM/n8wNGxsb+wT2u8Gq4dELnlXzwcbGxsZOhsnDo7q9mS8lNjY2NnYeGPlEJxuPpAiFjY2NjV0NpFUl/uT5R9TSsLGxsR/PzktFz/n8r/1tbGxs7Aezq9f1ckRbgmK7Nw+tm5ljY2Njb8qelPKrh3herav6HmxsbOwz2dcNgOpgVUBSTkqC8GYsbGxs7E3Z+Ysmh3iSb/UO6BR+bdjY2NibsueAXhM3X4hVzWNsbGzsXdnRP/GDg4/VQ5m9TU6z0YuNjY29ETuPkF6xaXK/2orAxsbGPpNd3VokS5AvVrLtSZa7cGQHGxsbe2t276DMpPQ/aegWxsLGxsbemp0Xenrxs6pE1ZstNjY29gnsVUdz8mWqIpMDPTdvwMbGxt6anWwDJtuPwsGaVpP4T7oi2NjY2B/Frh5zzBdrjlkVhNjY2Nh7s3sDX9+vFqSqhy/L5S1sbGzsTdm9uKp+a1W7txdy2NjY2HuzJ5uNJHiqm5xeEI5yGxsbG/vD2fODksmd6oant8Sj3MbGxsbegt0rvidh0wuq6sbm5nlsbGzsY9h5vFXDLG8wT2IVGxsb+2T2ZEK9slR+ZCcfZVlXBBsbG/sD2ZOSUC/Gevj8wBA2Njb2aezJtHqthTksKWBhY2Nj782uXuWi/KC1kLQKFpxUwsbGxv5wdm/I3pP5/V6R62aBsLGxsbdmJ6GVD1NdpjyoRs0DbGxs7APY1aOWvUDqlZaSZWoGGDY2NjZ2EHt5Oam64SkcLcLGxsbGDjCTwtNkrOv5Y2NjY5/DrkZREjm96KqG3CjAsLGxsbdgzws3k2ZwTr2+Uw4wbGxs7C3Y51zY2NjY2NjY2NjYj7m+AcTb4pUSFnw6AAAAAElFTkSuQmCC">
+        </ul>
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/20/markdown使用经验/">markdown使用经验</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/windows/">windows</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
         
-            1.markdown代码块中如何让# * $原样显示而不被解析成对应的markdown语法
-解决方法...
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
         
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/20/markdown使用经验/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Viavie's avatar">
-            </div>
-            <div>
-                <strong>Viavie</strong>
-                <span>5月 20, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/issue/">问题</a>
-            </span>
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=系统镜像下载&url=https://viavie.github.io//2017/09/29/系统镜像下载/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=系统镜像下载&url=https://viavie.github.io//2017/09/29/系统镜像下载/index.html&via=Viavie" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://viavie.github.io//2017/09/29/系统镜像下载/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://viavie.github.io//2017/09/29/系统镜像下载/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
 
-            
-            
-        
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="Windows7"><a href="#Windows7" class="headerlink" title="Windows7"></a>Windows7</h3><p><a href="ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/" target="_blank" rel="external">Win7旗舰版64位</a></p>
+<p><a href="ed2k://|file|cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso|2653276160|7503E4B9B8738DFCB95872445C72AEFB|/" target="_blank" rel="external">Win7旗舰版32位</a></p>
+
     
 
     
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
-
-    
-	
-	<!-- live2d -->
-	
-    <script type="text/javascript" src="/live2d/script.js"></script>
-    <canvas id="live2dcanvas" width="150px" height="300px" class="live2d"></canvas>
-    <style>
-      #live2dcanvas {
-        position: fixed;
-        right: 0px;
-        z-index: 999;
-        pointer-events: none;
-        bottom: -40px;
-      }
-    </style>
-    <script>loadlive2d("live2dcanvas" ,"/live2d/assets/haruto/haruto.model.json")</script>
-  
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/08/23/春风十里不如你/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -563,6 +687,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
