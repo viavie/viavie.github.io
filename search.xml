@@ -3,6 +3,53 @@
   
     
     <entry>
+      <title><![CDATA[整理的学习路径]]></title>
+      <url>/2017/10/01/%E6%95%B4%E7%90%86%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84/</url>
+      <content type="html"><![CDATA[<h3 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a><strong>注意事项：</strong></h3><p><strong>中高配笔记本一台:</strong></p>
+<p>​            处理器：i5-7200u及以上</p>
+<p>​            内存：8G及以上</p>
+<p>​            屏幕分辨率：1920*1080</p>
+<p>​            硬盘：固态120G及以上（俗称ssd）</p>
+<p>​            显卡：无要求（当然越高越好）</p>
+<p>​            <em>以上配置要求”京东自营“4500元左右就可以买到，低于4000的笔记本不要买，那是电子垃圾，不是笔记本。</em></p>
+<p>​            <em>百脑汇和实体店不要去，原因请百度百脑汇奸商或者你进笔记本吧逛逛，不放心找协会的学长给你网购。</em></p>
+<p>​            <code>以上掺杂了众多学长学姐的血的教训，百脑汇js(奸商)不是随便叫的，不服你去试试。</code></p>
+<p>软件下载：</p>
+<p><a href="http://pan.baidu.com/s/1nveInG1" target="_blank" rel="external">Adobe photoshop cc 2015.5.1</a>        解压密码：@vposy</p>
+<hr>
+<h2 id="Photoshop"><a href="#Photoshop" class="headerlink" title="Photoshop"></a>Photoshop</h2><h3 id="PS学习路径"><a href="#PS学习路径" class="headerlink" title="PS学习路径"></a>PS学习路径</h3><p>网易云课堂：</p>
+<p>​        <a href="http://study.163.com/course/introduction.htm?courseId=203001" target="_blank" rel="external">李涛PhotoShop高手之路基础篇</a></p>
+<p>​        <a href="http://study.163.com/course/introduction/197001.htm" target="_blank" rel="external">李涛Photoshop高手之路提高篇</a></p>
+<p>我要自学网：</p>
+<p>​        <a href="http://www.51zxw.net/list.aspx?cid=630" target="_blank" rel="external">PhotoshopCC视频教程</a>    </p>
+<p>百度传课：（Photoshop Cs6）</p>
+<p>​        <a href="https://chuanke.baidu.com/v1244516-92795-130104.html" target="_blank" rel="external">1.Photoshop初学入门必备——选区图层变换钢笔等基础知识</a></p>
+<p>​        <a href="https://chuanke.baidu.com/v1244516-118296-271151.html" target="_blank" rel="external">2.photoshop从入门到精通——入门概念</a></p>
+<p>​        <a href="https://chuanke.baidu.com/v1244516-118297-271173.html" target="_blank" rel="external">3.photoshop从入门到精通——抠图重点</a></p>
+<p>​        <a href="https://chuanke.baidu.com/v1244516-118301-271194.html" target="_blank" rel="external">4.photoshop从入门到精通——修图调色</a></p>
+<p>​        <a href="https://chuanke.baidu.com/v1244516-118305-271210.html" target="_blank" rel="external">5.photoshop从入门到精通——绘图排版</a></p>
+<p>​        <a href="https://chuanke.baidu.com/v1244516-118323-271271.html" target="_blank" rel="external">6.photoshop从入门到精通——深入提高</a></p>
+<h3 id="PS素材网站"><a href="#PS素材网站" class="headerlink" title="PS素材网站"></a>PS素材网站</h3><p><em>说明一下，以下有些网站的素材每天是有下载数量限制的，有些是收费的，请善用万能的淘宝。</em></p>
+<p>​        <a href="http://www.58pic.com/" target="_blank" rel="external">1.千图网</a></p>
+<p>​        <a href="http://588ku.com/" target="_blank" rel="external">2.千库网</a></p>
+<p>​        <a href="http://huaban.com/" target="_blank" rel="external">3.花瓣网</a></p>
+<p>​        <a href="http://businesscardjournal.com/" target="_blank" rel="external">4.商业名片网</a></p>
+<p>​        <a href="http://ibaotu.com/" target="_blank" rel="external">5.包图网</a>        </p>
+<p>​    </p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 学习路径 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[系统镜像下载]]></title>
       <url>/2017/09/29/%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F%E4%B8%8B%E8%BD%BD/</url>
       <content type="html"><![CDATA[<p><strong>说明</strong>：</p>
@@ -1161,7 +1208,9 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
 <p><a href="![img](file:///C:\Users\DELL\AppData\Roaming\Tencent\QQ\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png">廖雪峰Git使用教程</a><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" target="_blank" rel="external">http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/</a>)</p>
 <p><a href="https://typora.io" target="_blank" rel="external">Markdown软件Typora</a></p>
 <p><a href="http://syxiaqj.github.io/2014/02/23/write-blog-with-markdown/?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="external">Hexo命令及Markdown语法</a></p>
-<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h4 id="Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？"><a href="#Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？" class="headerlink" title="Git如何避免”warning: LF will be replaced by CRLF“提示？"></a><a href="https://www.zhihu.com/question/50862500" target="_blank" rel="external">Git如何避免”warning: LF will be replaced by CRLF“提示？</a></h4><p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/lf&amp;crlf.png" alt="LF will be...CRLF"></p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h4 id="Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？"><a href="#Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？" class="headerlink" title="Git如何避免”warning: LF will be replaced by CRLF“提示？"></a><a href="https://www.zhihu.com/question/50862500" target="_blank" rel="external">Git如何避免”warning: LF will be replaced by CRLF“提示？</a></h4><pre class=" language-json"><code class="language-json">git config --global core.autocrlf <span class="token boolean">false</span>
+</code></pre>
+<p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/lf&amp;crlf.png" alt="LF will be...CRLF"></p>
 <p>最近更新：2017/5/20    15:42</p>
 ]]></content>
       
@@ -1262,11 +1311,11 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
         
         <tags>
             
+            <tag> typecho </tag>
+            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
-            
-            <tag> typecho </tag>
             
         </tags>
         
