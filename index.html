@@ -23,6 +23,8 @@
 
 
 
+    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
+
 
 
 
@@ -52,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="质朴通明，自由随心">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -277,6 +279,23 @@
 
     <!-- Analytics -->
     
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-99227270-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+        <script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?10afb685ebd9d2324e3428cef77e9c6b';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
     
     
 
@@ -316,7 +335,7 @@
         <p class="index-top-block-slogan"><a href="#">
         
             
-                Hi, nice to meet you
+                质朴通明，自由随心
             
         
         </a></p>
@@ -339,23 +358,22 @@
 
     <!-- Search -->
     
-    <!-- Google -->
+
+
+
+
+    <!-- Local -->
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
         <label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
             <i class="material-icons mdl-color-text--white" role="presentation">search</i>
         </label>
 
-        <form autocomplete="off" id="search-form" method="get" action="//google.com/search" accept-charset="UTF-8" class="mdl-textfield__expandable-holder" target="_blank">
-            <input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
+        <form autocomplete="off" id="search-form" class="mdl-textfield__expandable-holder">
+            <input type="text" id="search" class="form-control mdl-textfield__input search-input" name="q" results="0" placeholder=""/>
             <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
-
-            <input type="hidden" name="sitesearch" value="https://viavie.github.io">
         </form>
     </div>
-
-
-
-
+    <div id="local-search-result"></div>
 
 
 
@@ -381,6 +399,30 @@
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
             
+                <a class="index_share-link" href="/gallery" title="映像">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        映像
+                    </li>
+                </a>
+            
+                <a class="index_share-link" href="/links" title="友情链接">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        友情链接
+                    </li>
+                </a>
+            
+                <a class="index_share-link" href="/tags" title="标签云">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        标签云
+                    </li>
+                </a>
+            
+                <a class="index_share-link" href="/about" title="关于我">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        关于我
+                    </li>
+                </a>
+            
         </ul>
 
         <!-- Menu -->
@@ -389,6 +431,15 @@
             <span class="visuallyhidden">show menu</span>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
+            
+                <!-- All Site UV -->
+                <a class="index_share-link" href="#">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        <span id="busuanzi_container_site_uv">
+                            <span id="busuanzi_value_site_uv"></span>&nbsp;浏览量
+                        </span>
+                    </li>
+                </a>
             
 
             
@@ -1086,7 +1137,7 @@ We cling to memories as if it defined us, but...
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        youremail@email.com
+        xxbeautiful@icloud.com
         <b class="caret"></b>
     </a>
 </div>
@@ -1099,7 +1150,7 @@ We cling to memories as if it defined us, but...
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="#" target="_blank" title="Email Me">
+                    <a href="" target="_blank" title="Email Me">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
@@ -1128,7 +1179,7 @@ We cling to memories as if it defined us, but...
         <li class="dropdown">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
-                    <i class="material-icons sidebar-material-icons">inbox</i>
+                    <i class="material-icons sidebar-material-icons">folder_open</i>
                 
                     归档
                 <b class="caret"></b>
@@ -1146,8 +1197,58 @@ We cling to memories as if it defined us, but...
 
     <!-- Pages  -->
     
+        <li>
+            <a href="/gallery" title="映像">
+                
+                    <i class="material-icons sidebar-material-icons">color_lens</i>
+                
+                映像
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="友情链接">
+                
+                    <i class="material-icons sidebar-material-icons">link</i>
+                
+                友情链接
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags" title="标签云">
+                
+                    <i class="material-icons sidebar-material-icons">label_outline</i>
+                
+                标签云
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="关于我">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于我
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">15</span>
+            </a>
+        </li>
+        
     
 </ul>
 
@@ -1164,8 +1265,6 @@ It will not impact the appearance and can give developers a lot of support :)
 -->
 
 <!-- Sidebar Divider -->
-
-    <div class="sidebar-divider"></div>
 
 
 <!-- Theme Material -->
@@ -1219,7 +1318,7 @@ It will not impact the appearance and can give developers a lot of support :)
         <div class="mdl-mini-footer--left-section sns-list">
     <!-- Twitter -->
     
-        <a href="https://twitter.com/twitter" target="_blank">
+        <a href="https://twitter.com/WangRaine" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
                 <span class="visuallyhidden">Twitter</span>
             </button><!--
@@ -1228,7 +1327,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Facebook -->
     
-        <a href="https://www.facebook.com/facebook" target="_blank">
+        <a href="https://zh-cn.facebook.com/people/Haojie-Wang/100004608587681" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
                 <span class="visuallyhidden">Facebook</span>
             </button><!--
@@ -1237,7 +1336,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Google + -->
     
-        <a href="https://www.google.com/" target="_blank">
+        <a href="https://plus.google.com/105198473513982820826" target="_blank">
             <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
                 <span class="visuallyhidden">Google Plus</span>
             </button><!--
@@ -1245,6 +1344,12 @@ It will not impact the appearance and can give developers a lot of support :)
     
 
     <!-- Weibo -->
+    
+        <a href="http://www.weibo.com/5889793737/profile?topnav=1&amp;wvr=6" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
     
 
     <!-- Instagram -->
@@ -1335,9 +1440,16 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
 
 
 
+
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -1348,6 +1460,25 @@ It will not impact the appearance and can give developers a lot of support :)
     
 
     <!-- Local Search-->
+    
+        <script type="text/ls-javascript" id="search-local-js-script">
+    var searchFunc=function(c,a,b){$.ajax({url:c,dataType:"xml",success:function(e){var d=$("entry",e).map(function(){return{title:$("title",this).text(),content:$("content",this).text(),url:$("url",this).text()}}).get();var g=document.getElementById(a);var f=document.getElementById(b);g.addEventListener("input",function(){var i='<ul class="search-result-list">';var h=this.value.trim().toLowerCase().split(/[\s\-]+/);f.innerHTML="";if(this.value.trim().length<=0){return}d.forEach(function(o){var n=true;var s=[];var t=o.title.trim().toLowerCase();var m=o.content.trim().replace(/<[^>]+>/g,"").toLowerCase();var j=o.url;var u=-1;var q=-1;var p=-1;if(t!==""&&m!==""){h.forEach(function(w,x){u=t.indexOf(w);q=m.indexOf(w);if(u<0&&q<0){n=false}else{if(q<0){q=0}if(x===0){p=q}}})}if(n){i+='<li><a href="'+j+'" class="search-result-title" target="_blank">'+t;var r=o.content.trim().replace(/<[^>]+>/g,"");if(p>=0){var k=p-6;var l=p+6;if(k<0){k=0}if(k===0){l=10}if(l>r.length){l=r.length}var v=r.substr(k,l);h.forEach(function(w){var x=new RegExp(w,"gi");v=v.replace(x,'<em class="search-keyword">'+w+"</em>")});i+='<p class="search-result">'+v+"...</p></a>"}}});f.innerHTML=i})}})};
+</script>
+
+
+        <script type="text/ls-javascript" id="search-input-script">
+            var inputArea = document.querySelector('#search');
+            var getSearchFile = function() {
+                var path = 'search.xml';
+                searchFunc(path, 'search', 'local-search-result');
+            }
+
+            if(inputArea) {
+                inputArea.onfocus = function() {
+                    getSearchFile();
+                }
+            }
+        </script>
     
 
 
