@@ -1326,12 +1326,6 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[映像]]></title>
       <url>/gallery/index.html</url>
       <content type="html"></content>
@@ -1340,6 +1334,12 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
     <entry>
       <title><![CDATA[标签云]]></title>
       <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
