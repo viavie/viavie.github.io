@@ -1316,14 +1316,18 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
   
     
     <entry>
-      <title><![CDATA[映像]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
+      <title><![CDATA[关于我]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
+<h4 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h4><p>QQ：240313001<br>微信：xxmancooljie<br>微博：WangRaine<br>邮箱：xxbeautiful@icloud.com</p>
+<h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
+<h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
+]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[标签云]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[映像]]></title>
+      <url>/gallery/index.html</url>
       <content type="html"></content>
     </entry>
     
@@ -1334,13 +1338,9 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
     </entry>
     
     <entry>
-      <title><![CDATA[关于我]]></title>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
-<h4 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h4><p>QQ：240313001<br>微信：xxmancooljie<br>微博：WangRaine<br>邮箱：xxbeautiful@icloud.com</p>
-<h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
-<h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
-]]></content>
+      <title><![CDATA[标签云]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
     </entry>
     
   
