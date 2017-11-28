@@ -1,428 +1,67 @@
 <!DOCTYPE html>
-<html lang="zh">
-    <head>
-    <!--
-        © Material Theme
-        https://github.com/viosey/hexo-theme-material
-        Version: 1.3.4 -->
-
-    <!-- Title -->
-    
-    <title>
-        
-            映像 | 
-        
-        Viavie&#39;s Blog
-    </title>
-
-    <!-- Meta & Info -->
-    <meta charset="utf-8">
-
-    <!-- dns prefetch -->
-    <meta http-equiv="x-dns-prefetch-control" content="on">
-    
-    
-    
-    
-        <link rel="dns-prefetch" href="https://hm.baidu.com"/>
-    
-    
-        <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
-    
-    
-        <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
-    
-
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1bbcfd">
-    <meta name="author" content="Viavie">
+<html>
+  <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  
+  <title>映像 - Viavie&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  
+  <meta name="keywords" content=生活,博客,前端,游戏>
+  
     <meta name="description" content="质朴通明，自由随心">
-    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明">
+  
+  
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.02">
+  
+  
+    <link rel="alternate" href="/atom.xml " title="Viavie&#39;s Blog" type="application/atom+xml">
+  
 
-    <!-- Favicons -->
-    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
-    <link rel="icon" sizes="192x192" href="/img/favicon.png">
-    <link rel="apple-touch-icon" href="/img/favicon.png">
-
-    <!--iOS -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-title" content="Title">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="480">
-
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Viavie&#39;s Blog">
-
-    <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://viavie.github.io">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="映像 | Viavie&#39;s Blog">
-    <meta property="og:description" content="质朴通明，自由随心">
-    
-
-    <!--[if lte IE 9]>
-        <link rel="stylesheet" href="/css/ie-blocker.css">
-
-        
-            <script src="/js/ie-blocker.zhCN.js"></script>
-        
-    <![endif]-->
-
-    <!-- Import CSS & jQuery -->
-    
-        <link rel="stylesheet" href="/css/material.min.css">
-        <link rel="stylesheet" href="/css/style.min.css">
-        <!-- Config CSS -->
-
-
-<!-- Other Styles -->
-<style>
-  body, html {
-    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-  }
-
-  a {
-    color: #00838F;
-  }
-
-  .mdl-card__media,
-  #search-label,
-  #search-form-label:after,
-  #scheme-Paradox .hot_tags-count,
-  #scheme-Paradox .sidebar_archives-count,
-  #scheme-Paradox .sidebar-colored .sidebar-header,
-  #scheme-Paradox .sidebar-colored .sidebar-badge{
-    background-color: #1bbcfd !important;
-  }
-
-  /* Sidebar User Drop Down Menu Text Color */
-  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
-  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
-    color: #1bbcfd !important;
-  }
-
-  #post_entry-right-info,
-  .sidebar-colored .sidebar-nav li:hover > a,
-  .sidebar-colored .sidebar-nav li:hover > a i,
-  .sidebar-colored .sidebar-nav li > a:hover,
-  .sidebar-colored .sidebar-nav li > a:hover i,
-  .sidebar-colored .sidebar-nav li > a:focus i,
-  .sidebar-colored .sidebar-nav > .open > a,
-  .sidebar-colored .sidebar-nav > .open > a:hover,
-  .sidebar-colored .sidebar-nav > .open > a:focus,
-  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
-    color: #1bbcfd !important;
-  }
-
-  .toTop {
-    background: #757575 !important;
-  }
-
-  .material-layout .material-post>.material-nav,
-  .material-layout .material-index>.material-nav,
-  .material-nav a {
-    color: #757575;
-  }
-
-  #scheme-Paradox .MD-burger-layer {
-    background-color: #757575;
-  }
-
-  #scheme-Paradox #post-toc-trigger-btn {
-    color: #757575;
-  }
-
-  .post-toc a:hover {
-    color: #00838F;
-    text-decoration: underline;
-  }
-
-</style>
-
-
-<!-- Theme Background Related-->
-
-    <style>
-      body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
-      }
-    </style>
-
-
-
-
-<!-- Fade Effect -->
-
-    <style>
-      .fade {
-        transition: all 800ms linear;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        opacity: 1;
-      }
-
-      .fade.out{
-        opacity: 0;
-      }
-    </style>
-
-
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/queue.js"></script>
-    
-
-    <!-- UC Browser Compatible -->
-    <script>
-        var agent = navigator.userAgent.toLowerCase();
-        if(agent.indexOf('ucbrowser')>0) {
-            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
-            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
-        }
-    </script>
-
-    
-    <!-- Baidu Analytics -->
-    <script>
-        var _hmt = _hmt || [];
-        (function() {var hm = document.createElement('script');
-        hm.src = 'https://hm.baidu.com/hm.js?10afb685ebd9d2324e3428cef77e9c6b';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-    
-
-    
-    <!-- Google Analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-99227270-1', 'auto');ga('send', 'pageview');
-    </script>
-    
-
-
-    <!-- Bing Background -->
-    
-
-    <!-- Custom Head -->
-    
+  <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
-
-
+  <body>
+    <div class="container">
+      <header class="header">
+  <div class="blog-title">
+    <a href="/" class="logo">Viavie&#39;s Blog</a>
+    <div class="subtitle"></div>
+  </div>
+  <nav class="navbar">
+    <ul class="menu">
+      
+        <li class="menu-item">
+          <a href="/" class="menu-item-link">主页</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/archives" class="menu-item-link">归档</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/about" class="menu-item-link">关于</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+<div class="page">
+  <div class="page-title">
+    <h1 class="article-title">undefined</h1>
+  </div>
+  <div class="page-content">
     
-        <!-- Single Gallery Page -->
-        
-    <link rel="stylesheet" href="/css/gallery.min.css">
-
-
-<body>
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Header -->
-        <header id="header">
-            <h1>
-                <a href="/"><strong>Viavie's Blog</strong></a> - 映像
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#footer" class="icon fa-info-circle">
-                            ©&nbsp;Viavie
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Main -->
-        <div id="main">
-            
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/waterfalls.jpg" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/waterfalls.jpg"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/waterfalls.jpg" alt="Waterfalls" /></a>
-                        <h2>Waterfalls</h2>
-                        <p></p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Mal%C3%A8na.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Mal%C3%A8na.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Mal%C3%A8na.JPG" alt="Malèna" /></a>
-                        <h2>Malèna</h2>
-                        <p>西西里的美丽传说</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Light%20and%20Galaxy.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Light%20and%20Galaxy.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Light%20and%20Galaxy.JPG" alt="Light and Galaxy" /></a>
-                        <h2>Light and Galaxy</h2>
-                        <p>hometown</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Orange.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Orange.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Orange.JPG" alt="Orange" /></a>
-                        <h2>Orange</h2>
-                        <p>拍摄于办公室</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Jeux%20d%27enfants.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Jeux%20d%27enfants.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Jeux%20d%27enfants.JPG" alt="Jeux d&#39;enfants" /></a>
-                        <h2>Jeux d&#39;enfants</h2>
-                        <p>电影·两小无猜</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/I%27m%20Yours.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/I%27m%20Yours.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/I%27m%20Yours.JPG" alt="I&#39;m Yours" /></a>
-                        <h2>I&#39;m Yours</h2>
-                        <p></p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Galaxy%20and%20Tree.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Galaxy%20and%20Tree.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Galaxy%20and%20Tree.JPG" alt="Galaxy and Tree" /></a>
-                        <h2>Galaxy and Tree</h2>
-                        <p>来源于知乎</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Snow.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Snow.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Snow.JPG" alt="Snow" /></a>
-                        <h2>Snow</h2>
-                        <p>拍摄于学校</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Balance.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Balance.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Balance.JPG" alt="Balance" /></a>
-                        <h2>Balance</h2>
-                        <p></p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Mountain.PNG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Mountain.PNG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Mountain.PNG" alt="Mountain" /></a>
-                        <h2>Mountain</h2>
-                        <p></p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Flowers.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Flowers.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Flowers.JPG" alt="Flowers" /></a>
-                        <h2>Flowers</h2>
-                        <p></p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Man.JPG" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Man.JPG"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Man.JPG" alt="Man" /></a>
-                        <h2>Man</h2>
-                        <p></p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Newzealand%27s%20Mountain.jpg" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Newzealand%27s%20Mountain.jpg"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Newzealand%27s%20Mountain.jpg" alt="Newzealand&#39;s Mountain" /></a>
-                        <h2>Newzealand&#39;s Mountain</h2>
-                        <p>来源于Win10聚焦</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/sierra.jpg" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/sierra.jpg"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/sierra.jpg" alt="Sierra" /></a>
-                        <h2>Sierra</h2>
-                        <p>Mac Os壁纸</p>
-                    </article>
-                
-                    <article class="thumb">
-                        <a href="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Your%20Name.jpg" class="image lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Your%20Name.jpg"><img class="lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E6%98%A0%E5%83%8F/Your%20Name.jpg" alt="Your Name" /></a>
-                        <h2>Your Name</h2>
-                        <p>你的名字</p>
-                    </article>
-                
-            
-        </div>
-        <!-- Footer -->
-        <!--
-        <footer id="footer" class="panel">
-          <div class="inner split">
-            <div>
-              <section>
-                <h2>Magna feugiat sed adipiscing</h2>
-                <p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
-              </section>
-              <section>
-                <h2>Follow me on ...</h2>
-                <ul class="icons">
-                  <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                  <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                  <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                  <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-                  <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                  <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                  <li><a href="#" class="icon fa-telegram"><span class="label">Telegram</span></a></li>
-                </ul>
-              </section>
-              <p class="copyright">
-                &copy; Design: <a href="#">Gallery</a>.
-              </p>
-            </div>
-            <div>
-              <section>
-                <h2>Get in touch</h2>
-                <form method="post" action="#">
-                  <div class="field half first">
-                    <input type="text" name="name" id="name" placeholder="Name" />
-                  </div>
-                  <div class="field half">
-                    <input type="text" name="email" id="email" placeholder="Email" />
-                  </div>
-                  <div class="field">
-                    <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-                  </div>
-                  <ul class="actions">
-                    <li><input type="submit" value="Send" class="special" /></li>
-                    <li><input type="reset" value="Reset" /></li>
-                  </ul>
-                </form>
-              </section>
-            </div>
-          </div>
-        </footer>
-        -->
+  </div>
+</div>
+<footer>
+  &copy; 2017
+  <span class="author">
+    Viavie
+  </span>
+</footer>
 
     </div>
-
-    <!-- Scripts -->
-    
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/gallery/gallery.js"></script>
-        <script src="/js/lazyload.min.js"></script>
-    
-
-    <script type="text/javascript">
-        queue.offer(function(){
-            $('.lazy').lazyload({
-              effect: 'fadeIn',
-              event: 'scrollstop'
-            });
-        })
-        <!-- Start Queue -->
-        $(document).ready(function(){
-            setInterval(function(){
-                queue.execNext();
-            },200);
-        });
-    </script>
-</body>
-
-    
+  </body>
 </html>
