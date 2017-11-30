@@ -1174,8 +1174,7 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
 <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h4 id="Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？"><a href="#Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？" class="headerlink" title="Git如何避免”warning: LF will be replaced by CRLF“提示？"></a><a href="https://www.zhihu.com/question/50862500" target="_blank" rel="external">Git如何避免”warning: LF will be replaced by CRLF“提示？</a></h4><pre class=" language-json"><code class="language-json">git config --global core.autocrlf <span class="token boolean">false</span>
 </code></pre>
 <p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/lf&amp;crlf.png" alt="LF will be...CRLF"></p>
-<p>####<a href="http://www.mamicode.com/info-detail-1692738.html" target="_blank" rel="external">网速慢？修改npm的registry为淘宝源</a></p>
-<p>镜像使用方法（三种办法任意一种都能解决问题，建议使用第三种，将配置写死，下次用的时候配置还在）:</p>
+<h4 id="网速慢？修改npm的registry为淘宝源"><a href="#网速慢？修改npm的registry为淘宝源" class="headerlink" title="网速慢？修改npm的registry为淘宝源"></a><a href="http://www.mamicode.com/info-detail-1692738.html" target="_blank" rel="external">网速慢？修改npm的registry为淘宝源</a></h4><p>镜像使用方法（三种办法任意一种都能解决问题，建议使用第三种，将配置写死，下次用的时候配置还在）:</p>
 <p>1.通过config命令</p>
 <pre><code>npm config set registry https://registry.npm.taobao.org 
 npm info underscore （如果上面配置正确这个命令会有字符串response）
@@ -1331,6 +1330,12 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
   
     
     <entry>
+      <title><![CDATA[映像]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于我]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
@@ -1341,20 +1346,14 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
     </entry>
     
     <entry>
-      <title><![CDATA[映像]]></title>
-      <url>/gallery/index.html</url>
+      <title><![CDATA[标签云]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[links]]></title>
       <url>/links/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[标签云]]></title>
-      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
