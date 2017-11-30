@@ -1174,7 +1174,22 @@ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #清除缓存文件&amp;&amp;生�
 <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h4 id="Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？"><a href="#Git如何避免”warning-LF-will-be-replaced-by-CRLF“提示？" class="headerlink" title="Git如何避免”warning: LF will be replaced by CRLF“提示？"></a><a href="https://www.zhihu.com/question/50862500" target="_blank" rel="external">Git如何避免”warning: LF will be replaced by CRLF“提示？</a></h4><pre class=" language-json"><code class="language-json">git config --global core.autocrlf <span class="token boolean">false</span>
 </code></pre>
 <p><img src="http://hexo-1252290365.cosgz.myqcloud.com/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/lf&amp;crlf.png" alt="LF will be...CRLF"></p>
+<p>####<a href="http://www.mamicode.com/info-detail-1692738.html" target="_blank" rel="external">网速慢？修改npm的registry为淘宝源</a></p>
+<p>镜像使用方法（三种办法任意一种都能解决问题，建议使用第三种，将配置写死，下次用的时候配置还在）:</p>
+<p>1.通过config命令</p>
+<pre><code>npm config set registry https://registry.npm.taobao.org 
+npm info underscore （如果上面配置正确这个命令会有字符串response）
+</code></pre><p>2.命令行指定</p>
+<pre><code>npm --registry https://registry.npm.taobao.org info underscore
+</code></pre><p>3.编辑 <code>~/.npmrc</code> 加入下面内容</p>
+<pre><code>registry = https://registry.npm.taobao.org
+
+搜索镜像: https://npm.taobao.org
+
+建立或使用镜像,参考: https://github.com/cnpm/cnpmjs.org
+</code></pre><p><a href="http://www.mamicode.com/info-detail-1692738.html" target="_blank" rel="external">修改npm的registry为淘宝镜像(npm.taobao.org)</a></p>
 <p>最近更新：2017/5/20    15:42</p>
+<p>最近更新：2017/11.30 14:44</p>
 ]]></content>
       
         <categories>
