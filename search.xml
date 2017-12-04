@@ -11,7 +11,7 @@
 </blockquote>
 <p>我们很多人是不是都经历过这样一个阶段，在年少无知的时候挥霍自己的青春，等到了一定年龄，觉得自己就这个程度了，也无所谓了，没把自己当回事，没把时间当回事，很多想做的事情做到了一半甚至还没有开始就已经结束，并把它归之于自己还年轻，还有机会浪费。回首自己以前的时光，没有什么可圈可点，也没有一丝值得回忆的事情，那个时候的心情，是失望还是失落还未可知。</p>
 <p>​    我是一个农村出来的孩子，但从小的条件和其他同龄的孩子比起来还算是不错的，这得益于我父母的辛勤劳作，但这却使我愈发不知道珍惜可贵的东西，我不勤俭，也不节约，乱花父母的血汗钱，甚至拿钱去网吧上网打游戏，青少年的叛逆外加我的成绩一直比较好，让我养成了高傲的性格，并一味的自私自利，最终导致我在初中尝到了自己酿成的恶果，不会为人处事，朋友少的可怜，高中才慢慢好些。到了大学，我学到了很多东西，但是多种事物的冲击可能会让人暂时的迷失方向，我写这篇文章，就是为了让自己偏离轨道的时候能够找到自己人生的风向标，不至于离想要的未来越来越远。</p>
-<p>​    其实人生很短暂，做一件事做到极致我就已经知足了，修身齐家治国平天下，修身为先。那么我要做的，就是磨砺自己的心性，实践和理论相结合，在我看来，是最能磨砺心性的了。实践就是接触社会，进入社会，体会社会，理论就是阅读书籍，掌握更多的知识。</p>
+<p>​    其实人生很短暂，做一件事做到极致我就已经知足了，修身齐家治国平天下，修身为先。那么我要做的，就是磨砺自己的心性。实践和理论相结合，在我看来，是最能磨砺心性的了。实践就是接触社会，进入社会，体会社会，理论就是阅读书籍，掌握更多的知识。</p>
 <p>坚持不易，但是唯有谨记：我们执着于记忆，觉得它定义了我们，但定义我们的是我们的行为。</p>
 <p>不管过去的我们如何，从现在这一刻起，一切都该改变了。</p>
 ]]></content>
@@ -1361,16 +1361,6 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
   
     
     <entry>
-      <title><![CDATA[关于我]]></title>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
-<h4 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h4><p>QQ：240313001<br>微信：xxmancooljie<br>微博：WangRaine<br>邮箱：xxbeautiful@icloud.com</p>
-<h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
-<h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[映像]]></title>
       <url>/gallery/index.html</url>
       <content type="html"></content>
@@ -1386,6 +1376,16 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
       <title><![CDATA[标签云]]></title>
       <url>/tags/index.html</url>
       <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于我]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
+<h4 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h4><p>QQ：240313001<br>微信：xxmancooljie<br>微博：WangRaine<br>邮箱：xxbeautiful@icloud.com</p>
+<h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
+<h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
+]]></content>
     </entry>
     
   
