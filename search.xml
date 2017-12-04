@@ -3,6 +3,28 @@
   
     
     <entry>
+      <title><![CDATA[媒体、文档文件格式无法处理？你需要这些网站：]]></title>
+      <url>/2017/12/04/%E5%AA%92%E4%BD%93%E3%80%81%E6%96%87%E6%A1%A3%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E5%A4%84%E7%90%86%EF%BC%9F%E4%BD%A0%E9%9C%80%E8%A6%81%E8%BF%99%E4%BA%9B%E7%BD%91%E7%AB%99%EF%BC%9A/</url>
+      <content type="html"><![CDATA[<h4 id="Cloudconvert"><a href="#Cloudconvert" class="headerlink" title="Cloudconvert"></a><a href="https://cloudconvert.com/" target="_blank" rel="external">Cloud<strong>convert</strong></a></h4><p>基本上所有的文件格式都可以转换</p>
+<p><img src="https://i.ytimg.com/vi/WlBTdK_OvOU/maxresdefault.jpg" alt=""></p>
+<h4 id="Apowersoft"><a href="#Apowersoft" class="headerlink" title="Apowersoft"></a><a href="https://www.apowersoft.cn/" target="_blank" rel="external">Apower<strong>soft</strong></a></h4><p>各种工具，<a href="https://www.apowersoft.cn/free-online-video-converter" target="_blank" rel="external">音视频转换</a>很好用</p>
+<p><img src="http://hexo-1252290365.cosgz.myqcloud.com/2017-12/apowersoft.png" alt=""></p>
+<h4 id="office-converter"><a href="#office-converter" class="headerlink" title="office-converter"></a><a href="https://www.office-converter.com/" target="_blank" rel="external">office-<strong>converter</strong></a></h4><p>个人感觉没有前两个好用，仁者见仁吧。</p>
+<p><img src="http://hexo-1252290365.cosgz.myqcloud.com/2017-12/office-converter.png" alt=""></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[定义自己]]></title>
       <url>/2017/12/03/%E5%AE%9A%E4%B9%89%E8%87%AA%E5%B7%B1/</url>
       <content type="html"><![CDATA[<p>​    最早认识到”定义自己“这个词还是在看攻壳机动队的时候，当时电影的主角草薙在片尾道出了这样一句话：</p>
@@ -1367,12 +1389,6 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[标签云]]></title>
       <url>/tags/index.html</url>
       <content type="html"></content>
@@ -1386,6 +1402,12 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
 <h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
 <h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
+      <content type="html"></content>
     </entry>
     
   
