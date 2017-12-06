@@ -45,7 +45,7 @@
     
     <title>
         
-            标签: 网络维护 | 
+            SQL Server 2012学习记录 | 
         
         Viavie&#39;s Blog
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="质朴通明，自由随心">
-    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明">
+    <meta name="keywords" content="Raine&#39;s Blog,raine,王小明的博客,王小明,小明,数据库,SQL">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -83,6 +83,9 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","/css/prettify/github-v2.min.css?AfzKxt++K+/lhZBlSjnxwg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
             
         
 
@@ -214,7 +217,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Viavie&#39;s Blog">
-    <meta name="msapplication-starturl" content="https://viavie.github.io/tags/网络维护/">
+    <meta name="msapplication-starturl" content="https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Viavie&#39;s Blog">
@@ -229,13 +232,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://viavie.github.io/tags/网络维护/">
+    <meta property="og:url" content="https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: 网络维护 | Viavie&#39;s Blog">
+    <meta property="og:title" content="SQL Server 2012学习记录 | Viavie&#39;s Blog">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="质朴通明，自由随心">
-    
+    <meta property="og:article:tag" content="数据库"> <meta property="og:article:tag" content="SQL"> 
 
+    
+        <meta property="article:published_time" content="Wed Dec 06 2017 17:51:46 GMT+0800">
+        <meta property="article:modified_time" content="Wed Dec 06 2017 18:02:57 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -243,13 +249,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://viavie.github.io/tags/网络维护/index.html" />
+        <link rel="canonical" href="https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html",
+    "headline": "SQL Server 2012学习记录",
+    "datePublished": "Wed Dec 06 2017 17:51:46 GMT+0800",
+    "dateModified": "Wed Dec 06 2017 18:02:57 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Viavie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": "不管见识高低,一个人深度整理,和收拾自己的内心，,这事本身就很迷人。"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Viavie&#39;s Blog",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",数据库,SQLRaine&#39;s Blog,raine,王小明的博客,王小明,小明",
+    "description": "质朴通明，自由随心",
+}
+</script>
 
 
     
@@ -300,98 +336,565 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#项目目标："><span class="post-toc-number">1.</span> <span class="post-toc-text">项目目标：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#思考练习："><span class="post-toc-number">2.</span> <span class="post-toc-text">思考练习：</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#项目2-创建数据库"><span class="post-toc-number"></span> <span class="post-toc-text">项目2 创建数据库</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#项目小结"><span class="post-toc-number">1.</span> <span class="post-toc-text">项目小结</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--3dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="http://hexo-1252290365.cosgz.myqcloud.com/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4%E7%BB%8F%E9%AA%8C%E5%90%88%E9%9B%86/repair.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://hexo-1252290365.file.myqcloud.com/2017-12/SQLServer2012.jpg)">
+    
+            <p class="article-headline-p">
+                SQL Server 2012学习记录
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Viavie</strong>
+        <span>12月 06, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/18/网络维护经验合集/">网络维护经验合集</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/SQL/">SQL</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/数据库/">数据库</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
         
-            网络
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
         
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/18/网络维护经验合集/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Viavie's avatar">
-            </div>
-            <div>
-                <strong>Viavie</strong>
-                <span>5月 18, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/issue/">问题</a>
-              </span>
-            
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=SQL Server 2012学习记录&url=https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html&pic=https://viavie.github.io/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=SQL Server 2012学习记录&url=https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html&via=Viavie" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Viavie&#39;s Blog&title=SQL Server 2012学习记录&summary=质朴通明，自由随心&pics=https://viavie.github.io/img/favicon.png&url=https://viavie.github.io/2017/12/06/SQL Server 2012学习记录/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
 </div>
 
-            
-            
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>###所需工具：</p>
+<ol>
+<li><p>教材名称：《SQL Server 2012 数据库技术与应用》</p>
+<p>作者：郭玲</p>
+<p>出版社：清华大学出版社</p>
+<p>ISBN 978-7-302-43311-8</p>
+</li>
+<li><p><a href="ed2k://|file|cn_sql_server_2012_enterprise_edition_x86_x64_dvd_813295.iso|5054384128|BC78EFDC4005C44F80D88E54251D4025|/" target="_blank" rel="external">SQL Server 2012镜像</a>（打开迅雷后单击此链接）</p>
+</li>
+</ol>
+<p>###软件环境</p>
+<p>Win10 Enterprise X64</p>
+<p>##项目1：SQL Server 2012 系统概述</p>
+<p>###问题</p>
+<p>1.安装时遇到windows防火墙警告</p>
+<p><img src="C:\Users\N650DU\Desktop\1.png" alt=""></p>
+<p>Solution：关闭windows公用网络防火墙</p>
+<p><img src="C:\Users\N650DU\Desktop\2.png" alt=""></p>
+<p>(其实最好的解决方法是配置网络端口，但是关闭防火墙最省时间和精力，以下给出防火墙配置的链接)</p>
+<p><a href="https://docs.microsoft.com/zh-cn/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access" target="_blank" rel="external">配置windows防火墙以允许SQL Server访问</a></p>
+<h3 id="项目目标："><a href="#项目目标：" class="headerlink" title="项目目标："></a>项目目标：</h3><ul>
+<li><p>实例的概念</p>
+<p>实例就是虚拟的SQL Server 2012服务器，分为默认实例和命名实例。</p>
+</li>
+</ul>
+<h3 id="思考练习："><a href="#思考练习：" class="headerlink" title="思考练习："></a>思考练习：</h3><ul>
+<li><p>如何启动SQL Server Management Studio?</p>
+<p>“开始”→“程序”→“Microsoft SQL Server 2012” 菜单命令→“SSMS”</p>
+</li>
+<li><p>如何启动命名实例？</p>
+<p>进入“SSMS”→“连接到服务器”→“服务器名称”下拉框→“浏览更多”→选择命名实例</p>
+<p><em>命名实例：由安装该实例的过程中指定的实例名标识，以“计算机名称\实例名”的格式指定。</em></p>
+</li>
+</ul>
+<h2 id="项目2-创建数据库"><a href="#项目2-创建数据库" class="headerlink" title="项目2 创建数据库"></a>项目2 创建数据库</h2><p>###项目目标</p>
+<ul>
+<li><p><strong>了解数据库组成</strong></p>
+<p>数据库是表（Table）、视图（Index）、存储过程（Store Procedure）、触发器（Trigger）等数据库对象的集合，是数据库管理系统的核心内容。数据库的存储机构分为逻辑存储结构和物理存储结构。</p>
+<p>| 数据库逻辑存储结构     | 数据库对象     | 表、索引、触发器、存储过程、约束和用户等 |<br>| ————- | ——— | ——————– |<br>| <strong>数据库物理存储结构</strong> | <strong>数据库文件</strong> | <strong>数据库文件和事务日志文件</strong>     |</p>
+</li>
+</ul>
+<p>  其中，数据库文件分为</p>
+<table>
+<thead>
+<tr>
+<th>主数据库文件（.mdf）</th>
+<th style="text-align:center">用来存储数据库的启动信息和部分或全部数据</th>
+<th>一个数据库有且只能有一个主数据库文件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>次数据库文件（.ndf）</strong></td>
+<td style="text-align:center"><strong>包含除主数据库文件外的所有数据库文件</strong></td>
+<td><strong>如果主数据库文件足够大到容纳数据库中所有数据时，数据库不一定需要次数据库文件</strong></td>
+</tr>
+</tbody>
+</table>
+<p>  ​    </p>
+<table>
+<thead>
+<tr>
+<th>事务日志文件（.ldf）</th>
+<th>用来记录在数据库中发生的所有修改和导致这些修改的事务，保存所有可能用来恢复数据库的事务信息，</th>
+<th>每个数据库至少有一个事务日志文件，最小为512KB，理想容量为数据库大小的25%~40%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>理解数据库文件、文件组的种类和作用</strong></p>
+<p>1.数据库文件</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>主数据库文件（.mdf）</th>
+<th style="text-align:center">用来存储数据库的启动信息和部分或全部数据</th>
+<th>一个数据库有且只能有一个主数据库文件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>次数据库文件（.ndf）</strong></td>
+<td style="text-align:center"><strong>包含除主数据库文件外的所有数据库文件</strong></td>
+<td><strong>如果主数据库文件足够大到容纳数据库中所有数据时，数据库不一定需要次数据库文件</strong></td>
+</tr>
+</tbody>
+</table>
+<p>  ​    </p>
+<table>
+<thead>
+<tr>
+<th>事务日志文件（.ldf）</th>
+<th>用来记录在数据库中发生的所有修改和导致这些修改的事务，保存所有可能用来恢复数据库的事务信息，</th>
+<th>每个数据库至少有一个事务日志文件，最小为512KB，理想容量为数据库大小的25%~40%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>​    2.文件组</p>
+<p>​       是文件的逻辑集合，用来对文件进行分组，类似于文件夹。</p>
+<p>​       <em>事务日志文件不存在于任一文件组。</em></p>
+<table>
+<thead>
+<tr>
+<th>主文件组（PRIMARY）</th>
+<th>包含主数据文件和没有指定文件组的次数据文件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>用户自定义文件组</strong></td>
+<td><strong>通常在大型数据库应用系统中使用，由用户自行创建，通过在不同磁盘上创建文件组的方法来提高查询效率</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>掌握在管理数据库时常用的系统存储过程</strong></p>
+<p>管理常用数据库的系统存储过程有以下几个：</p>
+<ol>
+<li><p>系统存储过程sp_helpdb：查看数据库的拥有者、数据库容量、创建日期及状态等数据库的基本信息。</p>
+</li>
+<li><p>系统存储过程sp_helpfilegroup：查看数据库中文组件信息。</p>
+</li>
+<li><p>系统存储过程sp_rename：重命名数据库。</p>
+</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li><p><strong>会创建数据库</strong></p>
+<ul>
+<li>使用SSMS创建图书借阅数据库JY</li>
+</ul>
+<ol>
+<li>启动“SSMS”，连接到“本地默认实例”→在“对象资源管理器”窗口中右击“数据库”→“新建数据库”。</li>
+<li>输入“数据库名称”→确定主数据库文件和事务日志文件的“初始大小”→设定”增长方式“→更改数据库文件“存储路径”。</li>
+<li>点击“确定“。</li>
+</ol>
+<p>​</p>
+<ul>
+<li>使用CREATE DATABASE语句创建数据库</li>
+</ul>
+<ol>
+<li><p>启动SSMS，连接到“本地默认实例”→单击”新建查询“按钮→在“查询编辑器”窗口中输入创建数据库的SQL语句如下：</p>
+<pre class=" language-mysql"><code class="language-mysql">ON
+PRIMARY
+(
+    NAME = JY1,
+    FILENAME = 'e:\JY.mdf',
+    SIZE = 5MB,
+    MAXSIZE = 40MB
+)
+LOG ON
+(
+    NAME = JY1_log,
+    FILENAME = 'e:\JY.ldf',
+    SIZE = 15MB,
+    MAXSIZE = 60MB,
+    FILEGROWTH = 6MB
+)
+GO
+</code></pre>
+</li>
+<li><p>单击”执行“命令（F5），即可成功创建数据库JY。</p>
+<p>由于创建数据库后，”对象资源管理器“不会自动刷新，所以必须手动刷新才能看见已经创建好的数据库。</p>
+</li>
+</ol>
+</li>
+<li><p><strong>会管理数据库，包括修改数据库设置、重命名和删除数据库</strong></p>
+<ul>
+<li><p>修改JY数据库设置</p>
+<ul>
+<li><p>使用SSMS修改数据库JY的设置</p>
+<ol>
+<li>打开“SSMS”→”本地默认实例“→”对象资源管理器“→右击需要修改信息的”JY“数据库→“属性”→”数据库属性“→根据实际需要进行设置</li>
+</ol>
+</li>
+<li><p>使用SSMS缩减数据库容量</p>
+<ol>
+<li>打开“SSMS”→”本地默认实例“→”对象资源管理器“→右击需要缩减容量的”JY“数据库→“任务”→“收缩”→“数据库”→“确定”</li>
+</ol>
+</li>
+<li><p>使用ALTER DATABASE语句修改JY的设置</p>
+<ol>
+<li><p>在数据库中添加文件组：打开“SSMS”→”本地默认实例“→在“查询编辑器”窗口中输入新增名为group1文件组的ADD FILEGROUP语句：</p>
+<pre class=" language-mysql"><code class="language-mysql">ALTER DATABASE JY
+ADD FILEGROUP group1    --新增文件组
+GO
+sp_helpfilegroup    --查看数据库中文件组信息
+GO
+</code></pre>
+<p>​</p>
+</li>
+<li><p>扩充数据库的容量——修改数据文件和事务日志文件容量：在“查询编辑器”窗口中输入修改现有的数据文件和事务日志文件容量的MODIFY FILE语句，如下</p>
+<pre class=" language-mysql"><code class="language-mysql">ALTER DATABASE JY
+MODIFY FILE
+(
+    NAME = JY,
+      SIZE = 30MB
+)
+GO
+ALTER DATABASE JY
+MODIFY FILE
+(
+    NAME = JY_log,
+      SIZE = 40MB
+)
+GO
+SP_helpdb JY    --查看数据库JY扩容后的信息
+GO
+</code></pre>
+<p>​</p>
+</li>
+<li><p>扩充数据库的容量——新增次数据文件和事务日志文件：在“查询编辑器”窗口中输入新增次数据文件和事务日志文件的ADD FILE语句，如下</p>
+<pre class=" language-mysql"><code class="language-mysql">--新增一个次数据文件
+ALTER DATABASE JY
+ADD FILE
+(
+    NAME = 'JY_data1',
+      FILENAME = 'e:\JY_data1.ndf',
+      SIZE = 5MB,
+      MAXSIZE = 20MB,
+      FILEGROWTH = 3MB
+)
+GO
+--新增一个事务日志文件
+ALTER DATABASE JY
+ADD LOG FILE
+(
+    NAME = 'JY_log1',
+      FILENAME = 'e:\JY_log1.ldf',
+      SIZE = 5MB,
+      MAXSIZE = 20MB,
+      FILEGROWTH = 3MB
+)
+GO
+SP_helpdb JY    --查看数据库JY扩容后的信息
+GO
+</code></pre>
+<p>​</p>
+</li>
+<li><p>缩减数据库的容量——删除数据文件或事务日志文件：在“查询编辑器”窗口中输入删除指定的数据文件或事务日志文件的REMOVE FILE语句，如下</p>
+<pre class=" language-mysql"><code class="language-mysql">ALTER DATABASE JY
+REMOVE FILE JY_data1
+GO
+ALTER DATABASE JY
+REMOVE FILE JY_log1
+GO
+sp_helpdb JY    --查询数据库JY减容后的信息
+GO
+</code></pre>
+<p>​</p>
+</li>
+<li><p>缩减数据库容量——缩减数据文件或事务日志文件的容量：在“查询编辑器”窗口中输入收缩数据库的数据文件或事务日志文件的DBCC SHRINKFILE的语句，如下</p>
+<pre class=" language-mysql"><code class="language-mysql">USE JY
+GO
+DBCC SHRINKFILE(JY,5)
+GO
+sp_helpdb JY    --查看数据库JY的信息
+GO
+</code></pre>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>重命名和删除数据库JY</p>
+<ul>
+<li><p>重命名数据库JY</p>
+<p><em>重命名数据库有以下的要求：只有数据库管理员可以重命名数据库；其他用户已断开与数据库的连接；将数据库的选项修改为单用户模式。</em></p>
+<ol>
+<li><p>将数据库的状态修改为单用户模式</p>
+<p>右击”JY”→“属性”→“选项”→“状态”→“限制访问”→“SINGLE_USER”</p>
+</li>
+<li><p>重命名数据库</p>
+<p>方式1：右击“JY”→“重命名”</p>
+<p>方式2：“查询编辑器”→使用系统存储过程sp_rename重命名数据库</p>
+<pre class=" language-mysql"><code class="language-mysql">sp_renamedb    'JY','JY1'
+GO
+</code></pre>
+</li>
+</ol>
+</li>
+<li><p>删除数据库JY</p>
+<p>方式1：使用SSMS删除数据库</p>
+<p>​          右击“JY”→“删除”</p>
+<p>方式2：使用DROP DATABASE语句删除数据库</p>
+<pre class=" language-mysql"><code class="language-mysql">DROP DATABASE JY
+GO
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>会分离和附加数据库</p>
+<ul>
+<li><p>分离数据库JY</p>
+<p><em>要求：限制数据库为单用户模式</em></p>
+<ol>
+<li>右击”JY“→“任务”→“分离”→”确定“</li>
+</ol>
+</li>
+<li><p>附加数据库JY</p>
+<ol>
+<li>右击“数据库”→“附加”→“附加数据库”→”添加“→找到JY.mdf文件所在目录→选择要附加的数据库文件JY.mdf→”确定“</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="项目小结"><a href="#项目小结" class="headerlink" title="项目小结"></a>项目小结</h3><ol>
+<li>SQL Server的5个系统数据库：master、model、tempdb、msdb、resource。</li>
+<li>三种数据库文件：主数据文件、次数据文件、事务日志文件。</li>
+<li>数据库默认的主文件组PRIMARY。</li>
+<li>创建数据库实际上是创建数据文件和事务日志文件，以及设置它们的属性和彼此之间的关系。</li>
+<li>在本地客户端使用SSMS会比较方便，在服务器端使用Transact-SQL会比较迅速，所以要根据实际情况选择操作方法。</li>
+<li>在配置数据库之前要大致明白每个配置选项的作用，创建数据库和配置数据库的重点是文件和文件组，以及自动增长的属性设置。</li>
+<li>分离暂时不用的数据库可以减轻SQL Server 2012的负担。</li>
+<li>数据库使用一段时间后可能会变得很大，可以通过收缩数据库的方式来释放空间。</li>
+<li>对于不需要的数据库，可以删除。</li>
+</ol>
+
         
     
 
     
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
-
-    
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/12/04/媒体、文档文件格式无法处理？你需要这些网站：/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -597,6 +1100,14 @@ It will not impact the appearance and can give developers a lot of support :)
                     
 
                     
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom">
@@ -756,6 +1267,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Import prettify js  -->
 
     
+        
+            <script>lsloader.load("prettify_js","/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==", true)</script>
+        
+    
 
 
 
@@ -768,6 +1283,11 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
         
     
     
