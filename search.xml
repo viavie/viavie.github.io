@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[未来的路何如]]></title>
+      <url>/2017/12/21/%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%B7%AF%E4%BD%95%E5%A6%82/</url>
+      <content type="html"><![CDATA[<p>​    关于未来的路怎么走，我一直都很迷茫。因为我这个人欲望太重，想要这个，也想要那个，所以关于计算机和心理学我一直都很纠结到底选哪个。</p>
+<p>​    最终…</p>
+<p>​    今天我做了这个决定，我要学心理学。因为现在学习计算机的门槛越来越低了，这意味着以后的竞争会越来越激烈。而且作为计算机从业者，注定工作是要通宵达旦的，而我的身体条件不允许做这个工作。</p>
+<p>​    我也是很喜欢心理学的，那就这样吧，为了未来的目标努力——心理学研究生~！</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 轻语 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[SQL Server 2012学习记录]]></title>
       <url>/2017/12/06/SQL%20Server%202012%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
       <content type="html"><![CDATA[<h3 id="0-1所需工具："><a href="#0-1所需工具：" class="headerlink" title="0.1所需工具："></a>0.1所需工具：</h3><p>1.教材名称：《SQL Server 2012 数据库技术与应用》</p>
@@ -1619,11 +1643,11 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
         
         <tags>
             
-            <tag> typecho </tag>
-            
             <tag> 问题 </tag>
             
             <tag> materialize </tag>
+            
+            <tag> typecho </tag>
             
         </tags>
         
@@ -1661,16 +1685,6 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
   
     
     <entry>
-      <title><![CDATA[关于我]]></title>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
-<h4 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h4><p>QQ：240313001<br>微信：xxmancooljie<br>微博：WangRaine<br>邮箱：xxbeautiful@icloud.com</p>
-<h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
-<h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[links]]></title>
       <url>/links/index.html</url>
       <content type="html"></content>
@@ -1686,6 +1700,16 @@ npm info underscore （如果上面配置正确这个命令会有字符串respon
       <title><![CDATA[标签云]]></title>
       <url>/tags/index.html</url>
       <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于我]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h4 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h4><p>不爱喝酒，烟也不抽<br>大二学生，互联网技术爱好者</p>
+<h4 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h4><p>QQ：240313001<br>微信：xxmancooljie<br>微博：WangRaine<br>邮箱：xxbeautiful@icloud.com</p>
+<h4 id="关于赞助"><a href="#关于赞助" class="headerlink" title="关于赞助"></a>关于赞助</h4><p>如果您觉得我的博客对您有所帮助，你可以随便赏点儿，感谢您对我的支持！</p>
+<h4 id="建设历程"><a href="#建设历程" class="headerlink" title="建设历程"></a>建设历程</h4><p>2016-11-06 ：采购 腾讯云 主机（北京）<br>2017-03-08 ：在腾讯云购买域名 mynita.com<br>2017-03-21 ：域名备案成功（豫ICP备17009856号）<br>2017-03-23 ：博客上线投入使用<br>2017-03-23 ：使用Vtrois’s制做的主题 Kratos<br>2017-03-26 ：使用360CDN进行网站载入加速<br>2017-03-27 ：使用百度站长工具，录入百度搜索引擎<br>2017.03-29 ：转入腾讯云COS和CDN加速<br>2017-05-10 ：更换域名raine.wang，原域名交由协会使用<br>2017-05-11 ：弃用Wordpress，改用Typecho，使用Material主题<br>2017-05-17 ：弃用Typecho，使用Hexo，使用Material主题</p>
+]]></content>
     </entry>
     
   
